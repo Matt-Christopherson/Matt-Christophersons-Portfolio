@@ -1,0 +1,50 @@
+* {
+    font-family: IM Fell English, Eczar, Georgia, serif; /*Font family found from meyerweb.com */ 
+}
+
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --header-color: #a8a86c;
+    --text-color: #364340;
+}
+
+header {
+    background-color: var(--header-color);
+    padding: 10px;
+    color: var(--text-color);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#contents {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background-color: var(--header-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 1000px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+#introduction {
+    margin-top: 25px;
+}
+
+.picture {
+    border: 100px;
+    border-color: green;
+}

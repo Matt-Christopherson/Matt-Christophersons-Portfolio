@@ -28,7 +28,7 @@ header {
     background-color: var(--header-color);
     color: var(--text-color);
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 main {
@@ -45,6 +45,6 @@ h1 {
 }
 
 .picture {
-    border: 100px;
+    border-radius: 10px;
     border-color: green;
 }

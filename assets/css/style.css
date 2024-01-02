@@ -4,40 +4,78 @@
 
 /* color scheme sourced from http://khroma.co/generator/ */
 :root {
-    --header-color: #a8a86c;
+    --header-color: #999e67;
     --text-color: #364340;
+    --avocado: #999e67; 
+    --anzac: #e5984f;
+    --cinnabar: #e5453d;
+    --el-salva: #873430;
+    --tea-green: #eff7ee;
+}
+
+body {
+    background-color: var(--tea-green);
 }
 
 header {
+    position: absolute;
     background-color: var(--header-color);
     padding: 10px;
     color: var(--text-color);
     text-align: center;
-    position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    left: 25%;
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
-#contents {
+#navigation {
     position: fixed;
-    top: 75px;
-    right: 0;
-    width: 200px;
+    top: 10%;
+    right: 1%;
+    width: 100px;
     height: 100px;
-    background-color: var(--header-color);
+    background-color: var(--cinnabar);
     color: var(--text-color);
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color:antiquewhite;
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 1000px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 h1 {
     font-weight: 500;
+}
+
+h2 {
+    font-size: larger;
+}
+
+h3 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#social-media {
+    color: var(--el-salva);
+}
+
+#social-media:hover {
+    color: var(--cinnabar);
 }
 
 #introduction {
@@ -46,5 +84,5 @@ h1 {
 
 .picture {
     border-radius: 10px;
-    border-color: green;
+    border: 10px solid var(--cinnabar);
 }

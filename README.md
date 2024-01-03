@@ -4,14 +4,6 @@
 
 This portfolio was made to showcase my work as a developer. My goal with this project is to compile all my work in one place for potential employers to review.
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
 ## License
 
 MIT License

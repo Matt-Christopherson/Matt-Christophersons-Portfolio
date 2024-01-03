@@ -15,10 +15,13 @@
 
 body {
     background-color: var(--tea-green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
-    position: absolute;
     background-color: var(--header-color);
     padding: 10px;
     color: var(--text-color);
@@ -32,10 +35,10 @@ header {
 
 #navigation {
     position: fixed;
-    top: 10%;
-    right: 1%;
+    bottom: 10%;
+    right: 0;
     width: 100px;
-    height: 100px;
+    height: 120px;
     background-color: var(--cinnabar);
     color: var(--text-color);
     padding: 10px;
@@ -70,6 +73,10 @@ h3 {
     margin-top: 10px;
 }
 
+#introduction {
+    margin-bottom: 20px;
+}
+
 #social-media {
     color: var(--el-salva);
 }
@@ -78,11 +85,25 @@ h3 {
     color: var(--cinnabar);
 }
 
-#introduction {
-    margin-top: 25px;
-}
-
 .picture {
     border-radius: 10px;
     border: 10px solid var(--cinnabar);
+}
+
+#gallery {
+    margin-bottom: 25px;
+}
+
+.gallery-picture {
+    border-radius: 10px;
+    border: 10px solid var(--cinnabar);
+    width: 300px;
+    height: 300px;
+    margin: 10px
+}
+
+.gallery-picture:hover {
+    border-color: #e5984f;
+    width: 350px;
+    height: 350px;
 }

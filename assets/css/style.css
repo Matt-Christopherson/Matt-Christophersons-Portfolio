@@ -102,8 +102,12 @@ h3 {
     margin: 10px
 }
 
-.gallery-picture:hover {
-    border-color: #e5984f;
+#Horiseon {
     width: 350px;
     height: 350px;
+}
+
+.gallery-picture:hover {
+    border-color: #e5984f;
+
 }
